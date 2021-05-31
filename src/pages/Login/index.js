@@ -31,7 +31,7 @@ const Login = ({ signInRequest }) => {
             type="email"
             name="email"
             id="email"
-            placeholder="Seu e-mail"
+            placeholder="Enter Your e-mail"
             value={email}
             onChange={e => setEmail(e.target.value)}
           />
@@ -40,12 +40,12 @@ const Login = ({ signInRequest }) => {
             type="password"
             name="password"
             id="password"
-            placeholder="Senha secreta"
+            placeholder="Enter Your Password"
             value={password}
             onChange={e => setPassword(e.target.value)}
           />
 
-          <button type="submit">Entrar</button>
+          <button type="submit">Submit</button>
         </Form>
       </Wrapper>
     </Container>
