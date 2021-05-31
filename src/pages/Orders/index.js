@@ -45,13 +45,13 @@ const Orders = ({
         <UserInfo>
           <UserName>{user.name}</UserName>
           <LogoutButton type="button" onClick={() => logout()}>
-            Sair do app
+            Sign Out
           </LogoutButton>
         </UserInfo>
       </Header>
 
       <Content>
-        <PageTitle>Últimos Pedidos</PageTitle>
+        <PageTitle>Latest Orders</PageTitle>
         <OrdersContainer>
           {loading && <Loader type="Oval" color="#0b2031" height="100" width="100" />}
           {!!orders.length
